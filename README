@@ -1,0 +1,39 @@
+Tokyo Zip code [Tokyo Postal Code] PHP Program.
+
+2 Drop-down menus for a HTMLform.
+
+Choosing the zipcode in the 1st drop-down menu, will display the name of district in the second drop-down menu.
+
+
+Needs:
+
+A file called 'TokyoPostalCodes.xlsx' for the name of the districts in Tokyo. 
+// Do not need this file because the data are already inside the 2 tables: 'data' and 'data_parent'
+
+
+2 databases ['data' and 'data_parent'] + 1 database ['registrer'] for the result [here MySQL databases]
+
+2 Javascript files : 'jquery-1.8.1.js' and 'func.js'.
+
+How does it work:
+
+HTML Files: 'contact.php' (the form) and 'contact_off.html' (when the form is validated).
+
+
+PHP Files:
+
+'db.php' ==> to connect to the database
+
+'ajax_city' ==> to do a query in MySQL
+
+
+'register1.php' ==> to select and output the result in the 'registrer' table.
+
+ // The result of this file is not perfect here, not in the right parsing format. 
+//  I will need some help here. 
+
+
+
+You can see this form in action here:
+
+http://www.larcebeau.com/contact.php
